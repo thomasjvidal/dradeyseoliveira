@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Preview__preview_start",
+      "Bash(sed -i 's|../../assets/font/bg_hero_mobile_dra_naiane\\\\.webp|../../imagens/mobile1.png|g' \"C:\\\\Users\\\\milen\\\\OneDrive\\\\Ambiente de Trabalho\\\\LP-DEYSE\\\\assets\\\\css\\\\post-47.css\")",
+      "Bash(sed -i 's|../../assets/font/bg_bio_mobile_dra_naiane\\\\.webp|../../imagens/mobile2.png|g' \"C:\\\\Users\\\\milen\\\\OneDrive\\\\Ambiente de Trabalho\\\\LP-DEYSE\\\\assets\\\\css\\\\post-47.css\")",
+      "Bash(sed -i 's|../../assets/font/banner_final_mobile\\\\.webp|../../imagens/mobile5.png|g' \"C:\\\\Users\\\\milen\\\\OneDrive\\\\Ambiente de Trabalho\\\\LP-DEYSE\\\\assets\\\\css\\\\post-47.css\")",
+      "Bash(ls \"C:\\\\Users\\\\milen\\\\OneDrive\\\\Ambiente de Trabalho\\\\LP-DEYSE\\\\assets\\\\font\"\" 2>/dev/null | head -20 && echo \"---\" && ls \"C:UsersmilenOneDriveAmbiente de TrabalhoLP-DEYSEimagens\"\")",
+      "Bash(python -c \":*)",
+      "Bash(powershell -Command \"Select-String -Path ''C:\\\\Users\\\\milen\\\\OneDrive\\\\Ambiente de Trabalho\\\\LP-DEYSE\\\\assets\\\\css\\\\post-47.css'' -Pattern ''e5eaa32|mobile2|mobile1|mobile3|mobile4|mobile5'' | Select-Object -First 30 | ForEach-Object { $_LineNumber.ToString\\(\\) + '': '' + $_Line.Substring\\(0, [Math]::Min\\(200, $_Line.Length\\)\\) }\")",
+      "Bash(powershell -Command \"Select-String -Path ''C:\\\\Users\\\\milen\\\\OneDrive\\\\Ambiente de Trabalho\\\\LP-DEYSE\\\\assets\\\\css\\\\post-47.css'' -Pattern ''mobile'' | Select-Object LineNumber, Line -First 20\")",
+      "Bash(powershell -Command \"Add-Type -AssemblyName System.Drawing; $img = [System.Drawing.Image]::FromFile\\(''C:\\\\Users\\\\milen\\\\OneDrive\\\\Ambiente de Trabalho\\\\LP-DEYSE\\\\imagens\\\\mobile2.png''\\); Write-Host $img.Width ''x'' $img.Height; $img.Dispose\\(\\)\")",
+      "Bash(powershell -Command \"Select-String -Path ''C:\\\\Users\\\\milen\\\\OneDrive\\\\Ambiente de Trabalho\\\\LP-DEYSE\\\\assets\\\\css\\\\post-47.css'' -Pattern ''mobile5'' | Select-Object LineNumber\")",
+      "Bash(powershell -Command \"Select-String -Path ''C:\\\\Users\\\\milen\\\\OneDrive\\\\Ambiente de Trabalho\\\\LP-DEYSE\\\\assets\\\\css\\\\post-47.css'' -Pattern ''mobile5''\")",
+      "Bash(powershell -Command \"\\(Get-Content ''C:\\\\Users\\\\milen\\\\OneDrive\\\\Ambiente de Trabalho\\\\LP-DEYSE\\\\assets\\\\css\\\\post-47.css'' -Raw\\) -replace ''mobile5\\\\.png\\\\\\)'', ''mobile5.png?v=2\\)'' | Set-Content ''C:\\\\Users\\\\milen\\\\OneDrive\\\\Ambiente de Trabalho\\\\LP-DEYSE\\\\assets\\\\css\\\\post-47.css'' -NoNewline\")",
+      "Bash(python3 \"C:/Users/milen/OneDrive/Ambiente de Trabalho/LP-DEYSE/replace_text.py\")",
+      "Read(//usr/**)",
+      "Read(//usr/local/**)",
+      "Bash(python \"C:/Users/milen/OneDrive/Ambiente de Trabalho/LP-DEYSE/replace_text.py\")",
+      "Bash(perl --version)",
+      "Bash(node \"C:/Users/milen/OneDrive/Ambiente de Trabalho/LP-DEYSE/replace_text.py\")",
+      "Bash(node \"C:/Users/milen/OneDrive/Ambiente de Trabalho/LP-DEYSE/replace_text.js\")",
+      "Bash(powershell -Command \"\\(Get-Content ''C:\\\\Users\\\\milen\\\\OneDrive\\\\Ambiente de Trabalho\\\\LP-DEYSE\\\\index.html'' -Raw\\) -replace ''logo_principal_para_fundo_claro_1\\\\.webp'', ''logoprincipal.png'' | Set-Content ''C:\\\\Users\\\\milen\\\\OneDrive\\\\Ambiente de Trabalho\\\\LP-DEYSE\\\\index.html'' -NoNewline\")",
+      "Bash(grep -o :[^{]*hover[^{]*{[^}]*} 'C:/Users/milen/OneDrive/Ambiente de Trabalho/LP-DEYSE/assets/css/post-47.css')",
+      "Bash(node -e \":*)",
+      "Bash(timeout 3 ping -n 3 127.0.0.1)"
+    ]
+  }
+}
