@@ -1,0 +1,16 @@
+<svg width="960" height="600" viewBox="0 0 960 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="960" height="600" rx="48" fill="#F5F3F6"/>
+<rect x="48" y="48" width="864" height="504" rx="36" fill="url(#paint0_linear_1_2)"/>
+<ellipse cx="760" cy="470" rx="190" ry="126" fill="#D8DEFA" fill-opacity="0.72"/>
+<ellipse cx="180" cy="132" rx="190" ry="126" fill="#E8D7E8" fill-opacity="0.75"/>
+<path d="M663 200C615.667 200 579.833 234.917 564 287.5C579.833 340.083 615.667 375 663 375C710.333 375 746.167 340.083 762 287.5C746.167 234.917 710.333 200 663 200ZM663 343.75C631.969 343.75 606.75 318.531 606.75 287.5C606.75 256.469 631.969 231.25 663 231.25C694.031 231.25 719.25 256.469 719.25 287.5C719.25 318.531 694.031 343.75 663 343.75ZM663 256.25C645.766 256.25 631.75 270.266 631.75 287.5C631.75 304.734 645.766 318.75 663 318.75C680.234 318.75 694.25 304.734 694.25 287.5C694.25 270.266 680.234 256.25 663 256.25Z" fill="#6E7E94"/>
+<rect x="96" y="102" width="266" height="396" rx="28" fill="#FFFFFF" fill-opacity="0.66"/>
+<text fill="#7A667A" xml:space="preserve" style="white-space: pre" font-family="Poppins, Arial, sans-serif" font-size="54" font-weight="600" letter-spacing="0em"><tspan x="118" y="271.9">Blefaro</tspan><tspan x="118" y="335.9">plastia</tspan></text>
+<text fill="#6E7E94" xml:space="preserve" style="white-space: pre" font-family="Poppins, Arial, sans-serif" font-size="22" letter-spacing="0.08em"><tspan x="118" y="398.12">DRA. DEYSE OLIVEIRA</tspan></text>
+<defs>
+<linearGradient id="paint0_linear_1_2" x1="112" y1="83" x2="822" y2="518" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FCFAFC"/>
+<stop offset="1" stop-color="#F0E8F0"/>
+</linearGradient>
+</defs>
+</svg>

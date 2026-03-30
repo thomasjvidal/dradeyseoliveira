@@ -1,0 +1,17 @@
+<svg width="960" height="600" viewBox="0 0 960 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="960" height="600" rx="48" fill="#F2F4F7"/>
+<rect x="48" y="48" width="864" height="504" rx="36" fill="url(#paint0_linear_1_4)"/>
+<ellipse cx="754" cy="132" rx="160" ry="102" fill="#D8DEFA" fill-opacity="0.72"/>
+<ellipse cx="184" cy="468" rx="226" ry="144" fill="#E7EEF5" fill-opacity="0.75"/>
+<path d="M675 184C631.922 184 597 218.922 597 262C597 317 675 396 675 396C675 396 753 317 753 262C753 218.922 718.078 184 675 184ZM675 326C639.654 326 611 297.346 611 262C611 226.654 639.654 198 675 198C710.346 198 739 226.654 739 262C739 297.346 710.346 326 675 326Z" fill="#6E7E94"/>
+<path d="M684 233C660.804 233 642 251.804 642 275C642 298.196 660.804 317 684 317C707.196 317 726 298.196 726 275C726 251.804 707.196 233 684 233Z" fill="#A4B3C5"/>
+<rect x="96" y="102" width="266" height="396" rx="28" fill="#FFFFFF" fill-opacity="0.64"/>
+<text fill="#5B6978" xml:space="preserve" style="white-space: pre" font-family="Poppins, Arial, sans-serif" font-size="54" font-weight="600" letter-spacing="0em"><tspan x="118" y="302.9">Oto</tspan><tspan x="118" y="366.9">plastia</tspan></text>
+<text fill="#6E7E94" xml:space="preserve" style="white-space: pre" font-family="Poppins, Arial, sans-serif" font-size="22" letter-spacing="0.08em"><tspan x="118" y="429.12">DRA. DEYSE OLIVEIRA</tspan></text>
+<defs>
+<linearGradient id="paint0_linear_1_4" x1="130" y1="92" x2="814" y2="522" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FAFCFE"/>
+<stop offset="1" stop-color="#E8EEF5"/>
+</linearGradient>
+</defs>
+</svg>

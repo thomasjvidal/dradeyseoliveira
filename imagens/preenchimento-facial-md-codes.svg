@@ -1,0 +1,17 @@
+<svg width="960" height="600" viewBox="0 0 960 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="960" height="600" rx="48" fill="#F4F2F0"/>
+<rect x="48" y="48" width="864" height="504" rx="36" fill="url(#paint0_linear_1_3)"/>
+<ellipse cx="776" cy="134" rx="166" ry="108" fill="#D8DEFA" fill-opacity="0.72"/>
+<ellipse cx="169" cy="468" rx="218" ry="143" fill="#F5E4D8" fill-opacity="0.75"/>
+<path d="M678 184L621 241V391H735V241L678 184ZM707.5 363.5H648.5V273H707.5V363.5ZM687 262.5H669V244.5H687V262.5Z" fill="#6E7E94"/>
+<path d="M778 225L748.5 254.5L720 226L737 209L748.5 220.5L761 208L778 225Z" fill="#6E7E94"/>
+<rect x="96" y="92" width="316" height="416" rx="28" fill="#FFFFFF" fill-opacity="0.66"/>
+<text fill="#5B6978" xml:space="preserve" style="white-space: pre" font-family="Poppins, Arial, sans-serif" font-size="46" font-weight="600" letter-spacing="0em"><tspan x="118" y="202.7">Preenchimento</tspan><tspan x="118" y="258.7">Facial</tspan><tspan x="118" y="314.7">(MD CODES)</tspan></text>
+<text fill="#6E7E94" xml:space="preserve" style="white-space: pre" font-family="Poppins, Arial, sans-serif" font-size="22" letter-spacing="0.08em"><tspan x="118" y="398.12">DRA. DEYSE OLIVEIRA</tspan></text>
+<defs>
+<linearGradient id="paint0_linear_1_3" x1="122" y1="88" x2="816" y2="524" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FCFBFA"/>
+<stop offset="1" stop-color="#ECE3DB"/>
+</linearGradient>
+</defs>
+</svg>

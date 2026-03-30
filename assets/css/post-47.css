@@ -662,3 +662,19 @@ p{
   }
 }
 /* End custom CSS */
+
+/* Custom Override for 8 Cards */
+.elementor-47 .elementor-element.elementor-element-58ebfc4, .elementor-47 .elementor-element.elementor-element-b6d5841, .elementor-47 .elementor-element.elementor-element-ec1c2de, .elementor-47 .elementor-element.elementor-element-d96ef74, .elementor-47 .elementor-element.elementor-element-4aa4dfc, .elementor-47 .elementor-element.elementor-element-57b3776, .elementor-47 .elementor-element.elementor-element-4d1b9c0, .elementor-47 .elementor-element.elementor-element-d4c35b0 { padding: 0 !important; overflow: hidden !important; border-radius: 15px !important; }
+
+/* Reorder title cards to top */
+.elementor-47 .elementor-element.elementor-element-58ebfc4,
+.elementor-47 .elementor-element.elementor-element-b6d5841,
+.elementor-47 .elementor-element.elementor-element-ec1c2de,
+.elementor-47 .elementor-element.elementor-element-d96ef74,
+.elementor-47 .elementor-element.elementor-element-4aa4dfc,
+.elementor-47 .elementor-element.elementor-element-57b3776,
+.elementor-47 .elementor-element.elementor-element-4d1b9c0,
+.elementor-47 .elementor-element.elementor-element-d4c35b0 {
+    order: -1 !important;
+}
+
