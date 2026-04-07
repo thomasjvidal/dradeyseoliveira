@@ -1,0 +1,16 @@
+<svg width="960" height="600" viewBox="0 0 960 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="960" height="600" rx="48" fill="#F4F1EE"/>
+<rect x="48" y="48" width="864" height="504" rx="36" fill="url(#paint0_linear_1_1)"/>
+<ellipse cx="765" cy="130" rx="151" ry="98" fill="#D8DEFA" fill-opacity="0.7"/>
+<ellipse cx="182" cy="472" rx="224" ry="143" fill="#F7DCD6" fill-opacity="0.75"/>
+<path d="M659.833 181C635.072 181 615 201.072 615 225.833C615 271.25 659.833 322 659.833 322C659.833 322 704.667 271.25 704.667 225.833C704.667 201.072 684.595 181 659.833 181ZM659.833 248.25C647.453 248.25 637.417 238.214 637.417 225.833C637.417 213.453 647.453 203.417 659.833 203.417C672.214 203.417 682.25 213.453 682.25 225.833C682.25 238.214 672.214 248.25 659.833 248.25Z" fill="#6E7E94"/>
+<rect x="96" y="102" width="266" height="396" rx="28" fill="#FFFFFF" fill-opacity="0.64"/>
+<text fill="#5B6978" xml:space="preserve" style="white-space: pre" font-family="Poppins, Arial, sans-serif" font-size="54" font-weight="600" letter-spacing="0em"><tspan x="118" y="236.9">Cirurgia</tspan><tspan x="118" y="300.9">Pl&#xe1;stica</tspan><tspan x="118" y="364.9">Corporal</tspan></text>
+<text fill="#6E7E94" xml:space="preserve" style="white-space: pre" font-family="Poppins, Arial, sans-serif" font-size="22" letter-spacing="0.08em"><tspan x="118" y="427.12">DRA. DEYSE OLIVEIRA</tspan></text>
+<defs>
+<linearGradient id="paint0_linear_1_1" x1="126" y1="94" x2="826" y2="531" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FCFBFA"/>
+<stop offset="1" stop-color="#EEE8E2"/>
+</linearGradient>
+</defs>
+</svg>
