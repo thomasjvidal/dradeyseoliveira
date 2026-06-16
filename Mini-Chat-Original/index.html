@@ -505,13 +505,16 @@
     const sendBtn = document.getElementById('sendBtn');
     const progressBar = document.getElementById('progressBar');
     
+    const JOSEPHPAY_OWNER_UID = "c658bc5c-ddc7-4709-8f18-010ba024c1ab";
+
     let currentStep = 0;
     let userData = {
         procedimento: '',
         objetivo: '',
         momento: '',
         clinica: '',
-        nome: ''
+        nome: '',
+        telefone: ''
     };
 
     const questions = [
@@ -544,6 +547,12 @@
             text: "Ótimo! Quase lá... 😊\n\n<b>Qual é o seu nome?</b>",
             type: 'text',
             placeholder: "Digite seu nome completo"
+        },
+        {
+            id: 'telefone',
+            text: "Perfeito, {nome}! 📱\n\n<b>Qual é o seu número de WhatsApp?</b> Assim conseguimos te chamar para confirmar o agendamento.",
+            type: 'text',
+            placeholder: "Ex: (32) 99999-9999"
         }
     ];
 
@@ -700,12 +709,28 @@
             document.getElementById('resClinica').textContent = userData.clinica;
 
             // Esconde input e mostra overlay
-            document.getElementById('chatInput').style.display = 'none';        
+            document.getElementById('chatInput').style.display = 'none';
             progressBar.style.width = '100%';
-            
+
             document.getElementById('resultOverlay').style.display = 'flex';
 
+            sendLeadToJosephPay();
+
         }, 1500);
+    }
+
+    function sendLeadToJosephPay() {
+        fetch("https://josephpay-production.up.railway.app/api/leads/create", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "X-Owner-Key": JOSEPHPAY_OWNER_UID
+            },
+            body: JSON.stringify({
+                name: userData.nome,
+                phone: userData.telefone
+            })
+        }).catch(function () {});
     }
 
     function sendToWhatsApp() {
