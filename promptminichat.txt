@@ -1,0 +1,63 @@
+PROMPT PADRÃO — Customizar e conectar o MiniChat (Joseph Pay)
+
+Este repositório tem uma pasta MiniChat/ com um index.html que simula
+um chat de WhatsApp pra captar leads (mesmo padrão usado no site do
+Claudio Filho).
+
+PARTE 1 — Customizar o conteúdo do chat
+
+Customize MiniChat/index.html sozinho, seguindo estes passos, SEM
+mudar CSS, progress bar, lógica de chat ou o fetch para
+/api/leads/create:
+
+1. Procure em todo o repositório a tag <script src=".../sensor.js?uid=...">
+   e extraia o valor de "uid" — esse é o JP_OWNER_KEY. Use exatamente
+   esse valor na constante JP_OWNER_KEY do MiniChat/index.html.
+
+2. Descubra o nome do negócio e a área/nicho dele lendo o conteúdo do
+   site (título da página, headings, meta description, textos da
+   home). Use o nome no <title> e no .header-info (h3 = nome, p = área
+   /especialidade) do MiniChat.
+
+3. Procure a foto de perfil que já está dentro de MiniChat/imagens/
+   (ou pasta equivalente) e use o arquivo que já existe lá no <img
+   src> do avatar — não invente nome de arquivo, use o que já está na
+   pasta.
+
+4. Pergunte a mim apenas o número de WhatsApp de destino (com DDI+DDD)
+   antes de finalizar — não pergunte mais nada além disso.
+
+5. Reescreva o array `questions` seguindo exatamente a mesma estrutura
+   do exemplo do Claudio Filho (3 perguntas de múltipla escolha sobre
+   interesse/objetivo/momento + depois nome e whatsapp em texto livre),
+   mas com perguntas e opções adaptadas à área do negócio identificada
+   no passo 2. Use o mesmo idioma do site (se o site é em inglês,
+   perguntas em inglês; se em português, em português).
+
+PARTE 2 — Conectar o MiniChat ao site (não pule isso, é a parte mais importante)
+
+6. Identifique o stack do site (HTML puro, React, Next.js, Vite +
+   TanStack Router, etc.) olhando os arquivos de configuração e
+   estrutura de pastas.
+
+7. Crie uma rota dedicada /minichat que renderiza o MiniChat/index.html
+   em PÁGINA CHEIA — sem modal, sem popup, sem header/footer do site,
+   como se fosse uma página própria do site. Use o sistema de rotas
+   nativo do framework encontrado no passo 6 (ex: arquivo de rota do
+   TanStack Router/Next.js/React Router). Se for HTML puro, um link
+   direto pro arquivo já basta.
+
+8. Encontre TODOS os botões e links de call-to-action do site que hoje
+   levam para a página de contato ou formulário (ex: "Contact",
+   "Request a Free Quote", "Get a Free Estimate", "Fale conosco",
+   "Entre em contato", "Fale com a gente") e troque o destino deles
+   para /minichat. NÃO apague a página de contato original, só pare de
+   apontar os botões pra ela.
+
+9. Depois de feito, rode o site localmente e confirme visualmente
+   (com captura de tela do preview) que: (a) a home carrega normal,
+   e (b) acessar /minichat mostra o chat em página cheia. Só então
+   faça commit e push.
+
+10. Me diga ao final, em uma frase: qual a URL final (ex:
+    seudominio.com/minichat) e quais botões foram redirecionados.
