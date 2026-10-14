@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/minichat.html",
+      "destination": "https://josephpay.com/minichat.html?uid=c658bc5c-ddc7-4709-8f18-010ba024c1ab",
+      "permanent": false
+    }
+  ]
+}
